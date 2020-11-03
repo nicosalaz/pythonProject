@@ -1,0 +1,8 @@
+print('Digite el limite inferior:')
+inf_limit = input()
+print('Digite el limite superior:')
+sup_limit = input()
+print('Multiplos de 7:')
+print([(x) for x in range(int(inf_limit), int(sup_limit)) if (x%7)==0])
+print('Multiplos de 5:')
+print([(y) for y in range(int(inf_limit), int(sup_limit)) if (y%5)==0])

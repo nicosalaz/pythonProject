@@ -1,0 +1,5 @@
+print("digite su nombre: ")
+nombre = input('user: ')
+print('Digite su apellido:')
+apellido = input('user: ')
+print('Su nombre es ',apellido,nombre)
