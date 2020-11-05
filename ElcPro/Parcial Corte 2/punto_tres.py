@@ -11,6 +11,7 @@ result = np.array([60,475000,12500])
 #usamos la libreria linalg para resolver le ecuacion
 x, residuals,rank,s= np.linalg.lstsq(valores,result)
 #imprimirmos los resultados
+print('Se necesitan la siguiente cantidad de personas para cada cargo:')
 for idx in range(0,3):
     print(categorias[idx],'\t',round(x[idx]))
 
