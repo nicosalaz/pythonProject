@@ -51,3 +51,7 @@ boton4 = driver.find_element_by_xpath('//*[text()="Nivel 4"]')
 dormir()
 boton4.click()
 
+dormir()
+
+boton5 = driver.find_element_by_xpath('//a[@class="waves-effect waves-light btn"]')
+boton5.click()
